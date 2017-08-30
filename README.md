@@ -6,11 +6,12 @@
 - [Floats Fixed Positions](#floats-fixed-positions)
 - [Colors Background](#colors-background)
 - [Spacing](#spacing)
+- [Sizing Borders](#sizing-borders)
 
 ## Basic Typography
 - text-muted
 - h{1,2,3,4,5,6}
-- display-{1,2,3,4}
+- display-{1,2,3,4,5,6}
 - lead
 - font-weight-bold
 - font-weight-normal
@@ -19,7 +20,6 @@
 - text-uppercase
 - text-capitalize
 - blockquote
-- blockquote text-right
 - blockquote-footer
 - list-unstyled
 - list-inline
@@ -30,68 +30,34 @@
 - text-left
 - text-center
 - text-right
-- text-sm-right
-- text-md-right
-- text-lg-right
-- text-xl-right
-- text-sm-left
-- text-md-left
-- text-lg-left
-- text-xl-left
-- text-sm-center
-- text-md-center
-- text-lg-center
-- text-xl-center
+- text-{sm,md,lg,xl}-right
+- text-{sm,md,lg,xl}-left
+- text-{sm,md,lg,xl}-center
 - align-baseline
 - align-top
 - align-middle
 - align-bottom
 - align-text-top
 - align-text-bottom
-- d-inline bg-success
-- d-block bg-success
-- d-inline-block bg-success
+- d-inline
+- d-block
+- d-inline-block
 
 ## Floats Fixed Positions
 - float-left
 - float-right
 - float-none
 - clearfix
-- float-sm-right
-- float-md-right
-- float-lg-right
-- float-xl-right
-- float-sm-left
-- float-md-left
-- float-lg-left
-- float-xl-left
-- float-sm-none
-- float-md-none
-- float-lg-none
-- float-xl-none
+- float-{sm,md,lg,xl}-right
+- float-{sm,md,lg,xl}-left
+- float-{sm,md,lg,xl}-none
 - fixed-top
 - sticky-top
 - fixed-bottom
 
 ## Colors Background
-- text-primary
-- text-secondary
-- text-success
-- text-info
-- text-warning
-- text-danger
-- text-light
-- text-dark
-- text-white
-- bg-primary
-- bg-secondary
-- bg-success
-- bg-info
-- bg-warning
-- bg-danger
-- bg-light
-- bg-dark
-- bg-white
+- text-{primary,secondary,success,info,warning,danger,light,dark,white}
+- bg-{primary,secondary,success,info,warning,danger,light,dark,white}
 - invisible
 
 ## Spacing
@@ -110,3 +76,10 @@
 - p-{1,2,3,4,5}
 - px-{1,2,3,4,5}
 - py-{1,2,3,4,5}
+
+## Sizing Borders
+- w-{1-100}
+- h-{1-100}
+- border
+- border-{primary,secondary,success,info,warning,danger,light,dark,white}
+- border-{top,right,bottom,left}-0
