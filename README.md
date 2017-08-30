@@ -3,6 +3,7 @@
 ## สารบัญ
 - [Basic Typography](#basic-typography)
 - [Text Alignment Display](#text-alignment-display)
+- [Floats Fixed Positions]($floats-fixed-positions)
 
 ## Basic Typography
 - text-muted
@@ -48,3 +49,23 @@
 - d-inline bg-success
 - d-block bg-success
 - d-inline-block bg-success
+
+## Floats Fixed Positions
+- float-left
+- float-right
+- float-none
+- float-sm-right
+- float-md-right
+- float-lg-right
+- float-xl-right
+- float-sm-left
+- float-md-left
+- float-lg-left
+- float-xl-left
+- float-sm-none
+- float-md-none
+- float-lg-none
+- float-xl-none
+- fixed-top
+- sticky-top
+- fixed-bottom
