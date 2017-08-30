@@ -1,7 +1,7 @@
-## bootstrap4 Review
+## Bootstrap4 Review
 
 ## สารบัญ
-- Basic Typography
+- [Basic Typography](#basic-typography)
 
 ## Basic Typography
 - text-muted
