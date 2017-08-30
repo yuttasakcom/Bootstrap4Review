@@ -4,6 +4,7 @@
 - [Basic Typography](#basic-typography)
 - [Text Alignment Display](#text-alignment-display)
 - [Floats Fixed Positions]($floats-fixed-positions)
+- [Colors Background](#colors-background)
 
 ## Basic Typography
 - text-muted
@@ -54,6 +55,7 @@
 - float-left
 - float-right
 - float-none
+- clearfix
 - float-sm-right
 - float-md-right
 - float-lg-right
@@ -69,3 +71,24 @@
 - fixed-top
 - sticky-top
 - fixed-bottom
+
+## Colors Background
+- text-primary
+- text-secondary
+- text-success
+- text-info
+- text-warning
+- text-danger
+- text-light
+- text-dark
+- text-white
+- bg-primary
+- bg-secondary
+- bg-success
+- bg-info
+- bg-warning
+- bg-danger
+- bg-light
+- bg-dark
+- bg-white
+- invisible
