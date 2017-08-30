@@ -7,6 +7,7 @@
 - [Colors Background](#colors-background)
 - [Spacing](#spacing)
 - [Sizing Borders](#sizing-borders)
+- [Breakpoints](#breakpoints)
 
 ## Basic Typography
 - text-muted
@@ -83,3 +84,13 @@
 - border
 - border-{primary,secondary,success,info,warning,danger,light,dark,white}
 - border-{top,right,bottom,left}-0
+
+## Breakpoints
+- @media (min-width:576px) {}
+- @media (min-width:768px) {}
+- @media (min-width:992px) {}
+- @media (min-width:1200px) {}
+- @media (max-width:575px) {}
+- @media (max-width:767px) {}
+- @media (max-width:991px) {}
+- @media (max-width:1199px) {}
