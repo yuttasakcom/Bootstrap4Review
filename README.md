@@ -3,8 +3,9 @@
 ## สารบัญ
 - [Basic Typography](#basic-typography)
 - [Text Alignment Display](#text-alignment-display)
-- [Floats Fixed Positions]($floats-fixed-positions)
+- [Floats Fixed Positions](#floats-fixed-positions)
 - [Colors Background](#colors-background)
+- [Spacing](#spacing)
 
 ## Basic Typography
 - text-muted
@@ -92,3 +93,20 @@
 - bg-dark
 - bg-white
 - invisible
+
+## Spacing
+- mb-{1,2,3,4,5}
+- mt-{1,2,3,4,5}
+- ml-{1,2,3,4,5}
+- mr-{1,2,3,4,5}
+- m-{1,2,3,4,5}
+- mx-{1,2,3,4,5}
+- my-{1,2,3,4,5}
+- mx-auto
+- pb-{1,2,3,4,5}
+- pt-{1,2,3,4,5}
+- pl-{1,2,3,4,5}
+- pr-{1,2,3,4,5}
+- p-{1,2,3,4,5}
+- px-{1,2,3,4,5}
+- py-{1,2,3,4,5}
