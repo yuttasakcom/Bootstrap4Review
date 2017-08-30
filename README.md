@@ -3,9 +3,9 @@
 ## สารบัญ
 - Utilities
   - [Basic Typography](#basic-typography)
-  - [Text Alignment Display](#text-alignment-display)
-  - [Floats Fixed Positions](#floats-fixed-positions)
-  - [Colors Background](#colors-background)
+  - [Text Alignment & Display](#text-alignment-display)
+  - [Floats & Positions](#floats-positions)
+  - [Colors & Background](#colors-background)
   - [Spacing](#spacing)
   - [Sizing Borders](#sizing-borders)
   - [Breakpoints](#breakpoints)
@@ -45,7 +45,7 @@
 - d-block
 - d-inline-block
 
-## Floats Fixed Positions
+## Floats Positions
 - float-left
 - float-right
 - float-none
