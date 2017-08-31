@@ -4,7 +4,7 @@
 - Utilities
   - [Basic Typography](#basic-typography)
   - [Text Alignment & Display](#text-alignment-display)
-  - [Floats & Positions](#floats-&-positions)
+  - [Floats & Positions](#floats-positions)
   - [Colors & Background](#colors-background)
   - [Spacing](#spacing)
   - [Sizing Borders](#sizing-borders)
@@ -12,7 +12,7 @@
 - CSS Components
   - [Button & Button Groups](#button-button-groups)
   - [Navbar & Navs](#navbar-navs)
-  - [List Groups & Badges](#list-group-&-badges)
+  - [List Groups & Badges](#list-group-badges)
   - [Forms & input](#form-input)
   - [Input Groups]($input-groups)
   - [Alerts & Progress Bars](#alerts-progress-bars)
@@ -66,7 +66,7 @@
 - d-block
 - d-inline-block
 
-## Floats & Positions
+## Floats Positions
 - float-left
 - float-right
 - float-none
