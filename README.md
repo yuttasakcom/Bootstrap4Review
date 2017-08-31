@@ -183,7 +183,17 @@
 - input-group-addon
 - input-group-btn
 
-## alerts progress bars
+## Alerts Progress Bars
+- alert
+- alert-{primary,secondary,success,info,warning,danger,light,dark}
+- alert-dismissible
+- close
+- data-dismiss="alert"
+- progress
+- progress-bar
+- progress-bar-striped
+- progress-bar-animated
+
 ## tables pagination
 ## working with card
 ## media objects
