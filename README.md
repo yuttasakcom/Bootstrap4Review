@@ -91,6 +91,7 @@
 - m-{1,2,3,4,5}
 - mx-{1,2,3,4,5}
 - my-{1,2,3,4,5}
+- m-auto
 - mx-auto
 - pb-{1,2,3,4,5}
 - pt-{1,2,3,4,5}
@@ -231,12 +232,73 @@
 - media-body
 - d-flex + align-self-{start,center,end}
 
-## grid system
-## grid alignment
-## flexbox classes
-## auto margin wrap ordering
-## carousel slider
-## collapse accordion
-## tooltips
-## popovers
-## modals
+## Grid System
+- row
+- col
+- col-{sm,md,lg,xl}-{1-12}
+
+## Grid Alignment
+- align-items-{start,center,end}
+- align-self-{start,center,end,baseline,stretch}
+- justify-content-{start,center,end,around,between}
+- no-gutters
+
+## Flexbox Classes
+- d-flex
+- flex-row
+- flex-row-reverse
+- flex-column
+- flex-column-reverse
+
+## Auto Margin Wrap Ordering
+- flex-nowrap
+- flex-wrap
+- order-{n}
+
+## Carousel Slider
+- carousel
+- slide
+- carousel-inner
+- carousel-item
+- carousel-control-prev
+- carousel-control-prev-icon
+- carousel-control-next
+- carousel-control-next-icon
+- carousel-indicators
+- carousel-caption
+- d-block
+- img-fluid
+- d-none
+- d-{sm,md,lg,xl}-block
+
+## Collapse Accordion
+- collapse
+
+## Tooltips
+- data-toggle="tooltip"
+- data-placement="{top,right,bottom,left}"
+- title="tooltip title"
+-
+```javascript
+<script>
+    $('[data-toggle="tooltip"]').tooltip();
+</script>
+```
+
+## Popovers
+- data-toggle="popover"
+- data-placement="{top,right,bottom,left}"
+- title="popover title"
+
+## Modals
+- data-toggle="modal"
+- data-target="#id"
+- modal
+- modal-dialog
+- modal-content
+- modal-header
+- modal-title
+- close
+- data-dismiss="modal"
+- modal-body
+- modal-footer
