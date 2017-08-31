@@ -66,7 +66,7 @@
 - d-block
 - d-inline-block
 
-## Floats Positions
+## Floats & Positions
 - float-left
 - float-right
 - float-none
