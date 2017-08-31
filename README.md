@@ -178,7 +178,11 @@
 - is-invalid
 - invalid-feedback
 
-## input groups
+## Input Groups
+- input-group
+- input-group-addon
+- input-group-btn
+
 ## alerts progress bars
 ## tables pagination
 ## working with card
