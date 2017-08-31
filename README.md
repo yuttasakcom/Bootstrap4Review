@@ -226,7 +226,11 @@
 - card-columns
 - card-bodyquote
 
-## media objects
+## Media Objects
+- media
+- media-body
+- d-flex + align-self-{start,center,end}
+
 ## grid system
 ## grid alignment
 ## flexbox classes
