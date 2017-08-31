@@ -151,8 +151,12 @@
 - data-target="#navbarNav"
 - navbar-toggler-icon
 - collapse navbar-collapse + id="navbarNav"
+- nav
 - nav-pills + active
 - nav-fill
+- nav-tabs
+- nav-item
+- nav-link
 
 ## List Group Badges
 - list-group
@@ -207,7 +211,21 @@
 - page-item
 - page-link
 
-## working with card
+## Working With Card
+- card
+- card-body
+- card-title
+- card-subtitle
+- card-text
+- card-img-top
+- card-header
+- card-footer
+- card-img-overlay
+- card-group
+- card-deck
+- card-columns
+- card-bodyquote
+
 ## media objects
 ## grid system
 ## grid alignment
