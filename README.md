@@ -154,7 +154,14 @@
 - nav-pills + active
 - nav-fill
 
-## List Group & Badges
+## List Group Badges
+- list-group
+- list-group-item
+- list-group-item-action
+- list-group-item-{primary,secondary,success,info,warning,danger,light,dark}
+- breadcrumb
+- breadcrumb-item
+
 ## form input
 ## input groups
 ## alerts progress bars
