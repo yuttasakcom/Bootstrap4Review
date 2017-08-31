@@ -82,60 +82,83 @@
         <!--########################START HERE#########################-->
 
         <!-- LIST GROUP -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
         </ul>
 
         <!-- LIST GROUP WITH LINKS -->
-        <ul>
-            <a href="#">My List Item One</a>
-            <a href="#">My List Item Two</a>
-            <a href="#">My List Item Three</a>
-            <a href="#">My List Item Four</a>
-            <a href="#">My List Item Five</a>
+        <ul class="list-group mb-5">
+            <a class="list-group-item list-group-item-action" href="#">My List Item One</a>
+            <a class="list-group-item list-group-item-action" href="#">My List Item Two</a>
+            <a class="list-group-item list-group-item-action" href="#">My List Item Three</a>
+            <a class="list-group-item list-group-item-action" href="#">My List Item Four</a>
+            <a class="list-group-item list-group-item-action" href="#">My List Item Five</a>
         </ul>
 
 
         <!-- CONTEXTUAL CLASSES -->
-        <ul>
-            <li>Regular List Item</li>
-            <li>Primary List Item</li>
-            <li>Secondary List Item</li>
-            <li>Success List Item</li>
-            <li>Info List Item</li>
-            <li>Warning List Item</li>
-            <li>Danger List Item</li>
-            <li>Light List Item</li>
-            <li>Dark List Item</li>
+        <ul class="list-group mb-5">
+            <li class="list-group-item list-group-item">Regular List Item</li>
+            <li class="list-group-item list-group-item-primary">Primary List Item</li>
+            <li class="list-group-item list-group-item-secondary">Secondary List Item</li>
+            <li class="list-group-item list-group-item-success">Success List Item</li>
+            <li class="list-group-item list-group-item-info">Info List Item</li>
+            <li class="list-group-item list-group-item-warning">Warning List Item</li>
+            <li class="list-group-item list-group-item-danger">Danger List Item</li>
+            <li class="list-group-item list-group-item-light">Light List Item</li>
+            <li class="list-group-item list-group-item-dark">Dark List Item</li>
         </ul>
 
 
         <!-- JAVASCRIPT BEHAVIOR -->
         <div class="row mb-5">
           <div class="col-4">
+              <div class="list-group mb-5" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" href="#list-home" id="list-home-list" data-toggle="list">Home</a>
 
+                  <a class="list-group-item list-group-item-action" href="#list-about" id="list-about-list" data-toggle="list">About</a>
+
+                  <a class="list-group-item list-group-item-action" href="#list-services" id="list-services-list" data-toggle="list">Services</a>
+              </div>
           </div>
           <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
 
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel">Home Content...</div>
+
+                <div class="tab-pane fade show" id="list-about" role="tabpanel">About Content...</div>
+
+                <div class="tab-pane fade show" id="list-services" role="tabpanel">Sevices Content...</div>
+
+            </div>
           </div>
         </div>
 
+        <!-- BADGE -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item One<span class="badge badge-primary">1</span></li>
+            <li class="list-group-item align-items-center justify-content-between d-flex">My List Item Two <span class="badge badge-success">2</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Three <span class="badge badge-danger">3</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Four <span class="badge badge-warning">4</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Five <span class="badge badge-dark">5</span></li>
+        </ul>
+
         <!-- BREADCRUMB -->
-        <ol>
-            <li>Home</li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
         </ol>
-        <ol>
-            <li><a href="#">Home</a></li>
-            <li>Users</li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item">Users</li>
         </ol>
-        <ol>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Users</a></li>
-            <li>Brad</li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Users</a></li>
+            <li class="breadcrumb-item">Brad</li>
         </ol>
 
     </div><!-- ./container -->
