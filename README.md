@@ -174,6 +174,9 @@
 - form-inline
 - form-row
 - col
+- is-valid
+- is-invalid
+- invalid-feedback
 
 ## input groups
 ## alerts progress bars
