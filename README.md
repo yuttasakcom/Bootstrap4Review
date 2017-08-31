@@ -162,7 +162,19 @@
 - breadcrumb
 - breadcrumb-item
 
-## form input
+## Form Input
+- form-group
+- form-control
+- form-control-{sm,lg}
+- form-control-file
+- form-text
+- form-check
+- form-check-label
+- form-check-input
+- form-inline
+- form-row
+- col
+
 ## input groups
 ## alerts progress bars
 ## tables pagination
