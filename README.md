@@ -116,3 +116,41 @@
 - @media (max-width:767px) {}
 - @media (max-width:991px) {}
 - @media (max-width:1199px) {}
+
+## Button Button Groups
+- btn
+- btn-{primary,secondary,success,info,warning,danger,light,dark,link}
+- btn-outline-{primary,secondary,success,info,warning,danger,light,dark}
+- btn-lg
+- btn-sm
+- btn-block
+- active
+- disabled
+- data-toggle="button"
+- dropdown
+- dropdown-toggle
+- data-toggle="dropdown"
+- dropdown-menu
+- dropdown-item
+- dropdown-divider
+- btn-group
+- btn-toolbar
+- btn-group-vertical
+
+## navbar navs
+## list group badges
+## form input
+## input groups
+## alerts progress bars
+## tables pagination
+## working with card
+## media objects
+## grid system
+## grid alignment
+## flexbox classes
+## auto margin wrap ordering
+## carousel slider
+## collapse accordion
+## tooltips
+## popovers
+## modals
