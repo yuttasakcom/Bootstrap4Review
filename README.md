@@ -194,7 +194,19 @@
 - progress-bar-striped
 - progress-bar-animated
 
-## tables pagination
+## Tables Pagination
+- table
+- table-inverse
+- thead-inverse
+- table-striped
+- table-bordered
+- table-hover
+- table-{sm,lg}
+- pagination
+- pagination-{sm,lg}
+- page-item
+- page-link
+
 ## working with card
 ## media objects
 ## grid system
