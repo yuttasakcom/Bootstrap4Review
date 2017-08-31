@@ -137,7 +137,23 @@
 - btn-toolbar
 - btn-group-vertical
 
-## navbar navs
+## Navbar Navs
+- navbar
+- navbar-expand-sm
+- navbar-light
+- navbar-dark
+- navbar-brand
+- navbar-nav
+- navbar-item
+- navbar-link
+- navbar-toggler
+- data-toggle="collapse"
+- data-target="#navbarNav"
+- navbar-toggler-icon
+- collapse navbar-collapse + id="navbarNav"
+- nav-pills + active
+- nav-fill
+
 ## list group badges
 ## form input
 ## input groups
