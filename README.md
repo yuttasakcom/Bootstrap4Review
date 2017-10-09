@@ -119,7 +119,7 @@
 - @media (max-width:991px) {}
 - @media (max-width:1199px) {}
 
-## Button Button Groups
+## Button Groups
 - btn
 - btn-{primary,secondary,success,info,warning,danger,light,dark,link}
 - btn-outline-{primary,secondary,success,info,warning,danger,light,dark}
