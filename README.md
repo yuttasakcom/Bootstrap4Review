@@ -1,6 +1,7 @@
-## Bootstrap4 Review
+## Bootstrap Manual
+> คู่มือการใช้งาน Bootstrap4(beta) ฉบับ YoProgrammer
 
-## สารบัญ
+## Table of Contents
 - Utilities
   - [Basic Typography](#basic-typography)
   - [Text Alignment & Display](#text-alignment-display)
