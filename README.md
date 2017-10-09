@@ -11,7 +11,7 @@
   - [Sizing Borders](#sizing-borders)
   - [Breakpoints](#breakpoints)
 - CSS Components
-  - [Button & Button Groups](#button-button-groups)
+  - [Button & Button Groups](#button-and-button-groups)
   - [Navbar & Navs](#navbar-navs)
   - [List Groups & Badges](#list-group-badges)
   - [Forms & input](#form-input)
@@ -119,7 +119,7 @@
 - @media (max-width:991px) {}
 - @media (max-width:1199px) {}
 
-## Button Groups
+## Button And Button Groups
 - btn
 - btn-{primary,secondary,success,info,warning,danger,light,dark,link}
 - btn-outline-{primary,secondary,success,info,warning,danger,light,dark}
