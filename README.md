@@ -1,5 +1,5 @@
 ## Bootstrap Manual
-> คู่มือการใช้งาน Bootstrap4(beta) ฉบับ YoProgrammer
+> คู่มือการใช้งาน Bootstrap 4
 
 ## Table of Contents
 - Utilities
