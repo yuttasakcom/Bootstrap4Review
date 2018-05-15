@@ -18,6 +18,8 @@
 * list-unstyled
 * list-inline
 * list-inline-item
+* container
+* container_fluid
 
 ## Text Alignment Display
 
@@ -296,8 +298,3 @@
 * data-dismiss="modal"
 * modal-body
 * modal-footer
-
-## Classes
-
-* container
-* container_fluid
