@@ -118,7 +118,7 @@
 * btn-toolbar
 * btn-group-vertical
 
-## Navbar Navs
+## Navbar
 
 * navbar
 * navbar-expand-sm
@@ -133,6 +133,9 @@
 * data-target="#navbarNav"
 * navbar-toggler-icon
 * collapse navbar-collapse + id="navbarNav"
+
+## Navs
+
 * nav
 * nav-pills + active
 * nav-fill
