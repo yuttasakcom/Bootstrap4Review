@@ -29,10 +29,17 @@
 
 * bg-{primary,secondary,success,info,warning,danger,light,dark,white}
 
+### Badge
+
+* badge
+* badge-{primary,secondary,success,info,warning,danger,light,dark,white}
+* badge-pill
+
 ### Blockquote
 
 * blockquote
 * blockquote-footer
+* blockquote-reverse
 
 ## Borders
 
@@ -87,9 +94,17 @@
 * carousel-indicators
 * carousel-caption
 
+### Cite
+
+* &lt;cite class="author name"&gt;...&lt;/cite&gt; // in -> .blockquote-footer
+
 ### Clearfix
 
 * clearfix
+
+### Code
+
+* &lt;code&gt;&lt;section&gt;&lt;/code&gt;
 
 ### Column
 
@@ -233,6 +248,12 @@
 
 * is-valid
 * is-invalid
+
+## K mode
+
+### Keboard
+
+* &lt;kbd&gt;ctrl + c&lt;/kbd&gt;
 
 ## L Mode
 
@@ -402,6 +423,7 @@
 * text-uppercase
 * text-capitalize
 * text-{primary,secondary,success,info,warning,danger,light,dark,white}
+* text-truncate
 
 ### Title
 
