@@ -1,103 +1,51 @@
 # Bootstrap4 Manual
 
-## Basic Typography
+## A Mode
 
-* text-muted
-* h{1,2,3,4,5,6}
-* display-{1,2,3,4,5,6}
-* sub
-* lead
-* font-weight-bold
-* font-weight-normal
-* font-italic
-* text-lowercase
-* text-uppercase
-* text-capitalize
-* blockquote
-* blockquote-footer
-* list-unstyled
-* list-inline
-* list-inline-item
-* container
-* container_fluid
+### Active
 
-## Text Alignment Display
+* active
 
-* text-justify
-* text-left
-* text-center
-* text-right
-* text-{sm,md,lg,xl}-right
-* text-{sm,md,lg,xl}-left
-* text-{sm,md,lg,xl}-center
+### Alerts
+
+* alert
+* alert-{primary,secondary,success,info,warning,danger,light,dark}
+* alert-dismissible
+
+### Alignment Display
+
 * align-baseline
 * align-top
 * align-middle
 * align-bottom
 * align-text-top
 * align-text-bottom
-* d-inline
-* d-block
-* d-inline-block
+* align-items-{start,center,end}
+* align-self-{start,center,end,baseline,stretch}
 
-## Floats Positions
+## B Mode
 
-* float-left
-* float-right
-* float-none
-* clearfix
-* float-{sm,md,lg,xl}-right
-* float-{sm,md,lg,xl}-left
-* float-{sm,md,lg,xl}-none
-* fixed-top
-* sticky-top
-* fixed-bottom
+### Background
 
-## Colors Background
-
-* text-{primary,secondary,success,info,warning,danger,light,dark,white}
 * bg-{primary,secondary,success,info,warning,danger,light,dark,white}
-* invisible
 
-## Spacing
+### Blockquote
 
-* mb-{1,2,3,4,5}
-* mt-{1,2,3,4,5}
-* ml-{1,2,3,4,5}
-* mr-{1,2,3,4,5}
-* m-{1,2,3,4,5}
-* mx-{1,2,3,4,5}
-* my-{1,2,3,4,5}
-* m-auto
-* mx-auto
-* pb-{1,2,3,4,5}
-* pt-{1,2,3,4,5}
-* pl-{1,2,3,4,5}
-* pr-{1,2,3,4,5}
-* p-{1,2,3,4,5}
-* px-{1,2,3,4,5}
-* py-{1,2,3,4,5}
+* blockquote
+* blockquote-footer
 
-## Sizing Borders
+## Borders
 
-* w-{1-100}
-* h-{1-100}
 * border
 * border-{primary,secondary,success,info,warning,danger,light,dark,white}
 * border-{top,right,bottom,left}-0
 
-## Breakpoints
+### Breadcrumb
 
-* @media (min-width:576px) {}
-* @media (min-width:768px) {}
-* @media (min-width:992px) {}
-* @media (min-width:1200px) {}
-* @media (max-width:575px) {}
-* @media (max-width:767px) {}
-* @media (max-width:991px) {}
-* @media (max-width:1199px) {}
+* breadcrumb
+* breadcrumb-item
 
-## Button and Button Groups
+### Button and Button Group
 
 * btn
 * btn-{primary,secondary,success,info,warning,danger,light,dark,link}
@@ -105,103 +53,13 @@
 * btn-lg
 * btn-sm
 * btn-block
-* active
-* disabled
-* data-toggle="button"
-* dropdown
-* dropdown-toggle
-* data-toggle="dropdown"
-* dropdown-menu
-* dropdown-item
-* dropdown-divider
 * btn-group
 * btn-toolbar
 * btn-group-vertical
 
-## Navbar
+## C Mode
 
-* navbar
-* navbar-expand-sm
-* navbar-light
-* navbar-dark
-* navbar-brand
-* navbar-nav
-* navbar-item
-* navbar-link
-* navbar-toggler
-* data-toggle="collapse"
-* data-target="#navbarNav"
-* navbar-toggler-icon
-* collapse navbar-collapse + id="navbarNav"
-
-## Navs
-
-* nav
-* nav-pills + active
-* nav-fill
-* nav-tabs
-* nav-item
-* nav-link
-
-## List Group Badges
-
-* list-group
-* list-group-item
-* list-group-item-action
-* list-group-item-{primary,secondary,success,info,warning,danger,light,dark}
-* breadcrumb
-* breadcrumb-item
-
-## Form Input
-
-* form-group
-* form-control
-* form-control-{sm,lg}
-* form-control-file
-* form-text
-* form-check
-* form-check-label
-* form-check-input
-* form-inline
-* form-row
-* col
-* is-valid
-* is-invalid
-* invalid-feedback
-
-## Input Groups
-
-* input-group
-* input-group-addon
-* input-group-btn
-
-## Alerts Progress Bars
-
-* alert
-* alert-{primary,secondary,success,info,warning,danger,light,dark}
-* alert-dismissible
-* close
-* data-dismiss="alert"
-* progress
-* progress-bar
-* progress-bar-striped
-* progress-bar-animated
-
-## Tables Pagination
-
-* table
-* table-inverse
-* thead-inverse
-* table-striped
-* table-bordered
-* table-hover
-* table-{sm,lg}
-* pagination
-* pagination-{sm,lg}
-* page-item
-* page-link
-
-## Working With Card
+### Card
 
 * card
 * card-body
@@ -217,43 +75,9 @@
 * card-columns
 * card-bodyquote
 
-## Media Objects
-
-* media
-* media-body
-* d-flex + align-self-{start,center,end}
-
-## Grid System
-
-* row
-* col
-* col-{sm,md,lg,xl}-{1-12}
-
-## Grid Alignment
-
-* align-items-{start,center,end}
-* align-self-{start,center,end,baseline,stretch}
-* justify-content-{start,center,end,around,between}
-* no-gutters
-
-## Flexbox Classes
-
-* d-flex
-* flex-row
-* flex-row-reverse
-* flex-column
-* flex-column-reverse
-
-## Auto Margin Wrap Ordering
-
-* flex-nowrap
-* flex-wrap
-* order-{n}
-
-## Carousel Slider
+### Carousel
 
 * carousel
-* slide
 * carousel-inner
 * carousel-item
 * carousel-control-prev
@@ -262,42 +86,330 @@
 * carousel-control-next-icon
 * carousel-indicators
 * carousel-caption
-* d-block
-* img-fluid
-* d-none
-* d-{sm,md,lg,xl}-block
 
-## Collapse Accordion
+### Clearfix
+
+* clearfix
+
+### Column
+
+* col
+* col-{sm,md,lg,xl}-{1-12}
+
+### Collapse
 
 * collapse
+* collapse navbar-collapse + id="navbarNav"
 
-## Tooltips
+### Container
 
-* data-toggle="tooltip"
-* data-placement="{top,right,bottom,left}"
-* title="tooltip title"
-*
+* container
+* container_fluid
 
-```javascript
-<script>$('[data-toggle="tooltip"]').tooltip();</script>
-```
+### Close
 
-## Popovers
+* close
 
-* data-toggle="popover"
-* data-placement="{top,right,bottom,left}"
-* title="popover title"
+## D Mode
 
-## Modals
+### Data
 
+* data-dismiss="modal"
+* data-dismiss="alert"
 * data-toggle="modal"
+* data-placement="{top,right,bottom,left}"
+* data-placement="{top,right,bottom,left}"
+* data-target="#navbarNav"
 * data-target="#id"
+* data-toggle="button"
+* data-toggle="collapse"
+* data-toggle="popover"
+* data-toggle="tooltip"
+
+## Direction
+
+* d-inline
+* d-inline-block
+* d-block
+* d-{sm,md,lg,xl}-block
+* d-flex
+* d-flex align-self-{start,center,end}
+* d-flex justify-content-{start,center,end,around,between}
+* d-none
+
+### Disabled
+
+* disabled
+
+### Display
+
+* display-{1,2,3,4,5,6}
+
+### Dropdown
+
+* dropdown
+* dropdown-toggle
+* data-toggle="dropdown"
+* dropdown-menu
+* dropdown-item
+* dropdown-divider
+
+## F Mode
+
+## Flexbox
+
+* flex-row
+* flex-row-reverse
+* flex-column
+* flex-column-reverse
+* flex-nowrap
+* flex-wrap
+
+### Fixed
+
+* fixed-top
+* fixed-bottom
+
+### Floats
+
+* float-left
+* float-right
+* float-none
+* float-{sm,md,lg,xl}-right
+* float-{sm,md,lg,xl}-left
+* float-{sm,md,lg,xl}-none
+
+### Form Input
+
+* form-group
+* form-control
+* form-control-{sm,lg}
+* form-control-file
+* form-text
+* form-check
+* form-check-label
+* form-check-input
+* form-inline
+* form-row
+
+### Font
+
+* font-weight-bold
+* font-weight-normal
+* font-weight-light
+* font-italic
+
+## H Mode
+
+### Header
+
+* h{1,2,3,4,5,6}
+
+### Hight
+
+* h-{1-100}
+
+## I Mode
+
+### Image Responsive
+
+* img-fluid
+
+### Input Groups
+
+* input-group
+* input-group-addon
+* input-group-btn
+
+### Invalid
+
+* invalid-feedback
+
+### Invisible
+
+* invisible
+
+### Is
+
+* is-valid
+* is-invalid
+
+## L Mode
+
+### Lead
+
+* lead
+
+### List
+
+* list-group
+* list-group-item
+* list-group-item-action
+* list-group-item-{primary,secondary,success,info,warning,danger,light,dark}
+* list-unstyled
+* list-inline
+* list-inline-item
+
+## M Mode
+
+### Margin
+
+* mb-{1,2,3,4,5}
+* mt-{1,2,3,4,5}
+* ml-{1,2,3,4,5}
+* mr-{1,2,3,4,5}
+* mr-auto
+* m-{1,2,3,4,5}
+* mx-{1,2,3,4,5}
+* my-{1,2,3,4,5}
+* m-auto
+* mx-auto
+
+### Media
+
+* @media (min-width:576px) {}
+* @media (min-width:768px) {}
+* @media (min-width:992px) {}
+* @media (min-width:1200px) {}
+* @media (max-width:575px) {}
+* @media (max-width:767px) {}
+* @media (max-width:991px) {}
+* @media (max-width:1199px) {}
+
+### Media Objects
+
+* media
+* media-body
+
+### Modals
+
 * modal
 * modal-dialog
 * modal-content
 * modal-header
 * modal-title
-* close
-* data-dismiss="modal"
 * modal-body
 * modal-footer
+
+## N Mode
+
+### Navbar
+
+* navbar
+* navbar-expand-sm
+* navbar-light
+* navbar-dark
+* navbar-brand
+* navbar-nav
+* navbar-item
+* navbar-link
+* navbar-toggler
+* navbar-toggler-icon
+
+## Navs
+
+* nav
+* nav-pills + active
+* nav-fill
+* nav-tabs
+* nav-item
+* nav-link
+
+### No Gutters
+
+* no-gutters
+
+## O Mode
+
+### Order
+
+* order-{n}
+
+## P Mode
+
+### Padding
+
+* pb-{1,2,3,4,5}
+* pt-{1,2,3,4,5}
+* pl-{1,2,3,4,5}
+* pr-{1,2,3,4,5}
+* p-{1,2,3,4,5}
+* px-{1,2,3,4,5}
+* py-{1,2,3,4,5}
+
+### Page
+
+* pagination
+* pagination-{sm,lg}
+* page-item
+* page-link
+
+### Progress Bars
+
+* progress
+* progress-bar
+* progress-bar-striped
+* progress-bar-animated
+
+## R Mode
+
+### Rounded
+
+* rounded
+* rounded-circle
+
+### Row
+
+* row
+
+## S Mode
+
+### Sticky
+
+* sticky-top
+
+### Slider
+
+* slide
+
+### Sub
+
+* sub
+
+## T Mode
+
+### Tables Pagination
+
+* table
+* table-inverse
+* thead-inverse
+* table-striped
+* table-bordered
+* table-hover
+* table-{sm,lg}
+
+### Text
+
+* text-justify
+* text-left
+* text-center
+* text-right
+* text-{sm,md,lg,xl}-right
+* text-{sm,md,lg,xl}-left
+* text-{sm,md,lg,xl}-center
+* text-muted
+* text-lowercase
+* text-uppercase
+* text-capitalize
+* text-{primary,secondary,success,info,warning,danger,light,dark,white}
+
+### Title
+
+* title="tooltip title"
+* title="popover title"
+
+## W Mode
+
+### Width
+
+* w-{1-100}
