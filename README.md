@@ -408,6 +408,7 @@
 * table-bordered
 * table-hover
 * table-{sm,lg}
+* table-{primary,secondary,success,info,warning,danger,light,dark}
 
 ### Text
 
